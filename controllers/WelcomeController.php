@@ -4,7 +4,7 @@ class WelcomeController extends Controller
 {
   public function index()
   {
-    echo '
+    echo '<?php require("routes.php")?>
           <html><head>
           <title>Index of Books</title>
           </head>
